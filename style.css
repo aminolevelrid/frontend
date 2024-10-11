@@ -1,0 +1,277 @@
+header {
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color:whitesmoke;
+    width:99%
+}
+
+
+header .s h1 {
+    color: black;
+    margin: 0; 
+}
+
+header > .ss > ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+    list-style: none;
+    gap: 20px;
+}
+
+header > .ss > ul>.d>img{
+    height: 25px;
+    border-radius: 10px ;
+   
+}
+
+header > .ss > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px; 
+}
+
+header > .ss > ul > li > a:hover {
+    color: blue;
+    text-decoration: underline; 
+}
+
+.p {
+    background-image: url("https://img.freepik.com/premium-photo/abstract-shadowy-textures-subtle-highlights-luminescence-seep-through-dark-background_764067-9315.jpg");
+    background-origin: padding-box;
+    height: 800px; 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+
+.p > .o {
+    color: white;
+    font-size: 50px;
+}
+ .p>.o>p>.h{
+    color:rgb(255, 157, 0)
+
+ }
+
+.p > .o > button {
+    height: 50px;
+    width:180px;
+    border-radius: 2rem;
+    border-color:rgb(255, 157, 0) ;
+}
+.p>.o>.k{
+    background-color:rgb(255, 157, 0);
+}
+
+
+.p > .o> button:hover {
+    background-color:rgb(0, 255, 60);
+}
+.ok {
+    background-color: #f0f0f0;          
+    border: 1px solid #ccc;   
+    border-radius: 10px;  
+    display:flex;
+    flex-direction: row;  
+    height:600px;         
+}
+
+.ok>.oo {
+    margin-top: 200px;
+    font-size: 16px;         
+    color: #333;             
+    font-weight: bold;       
+    margin-bottom: 10px; 
+    padding: 0 100px; 
+}
+
+h1 {
+    font-size: 24px;          
+    color: black  ;
+    font-size:50px;        
+    margin: 10px 0px; 
+    padding: 0 200px; 
+}
+
+.ok>.oo>p {
+    margin-top: 15px; 
+    padding: 0 200px; 
+}
+
+.ok>.oo>p {       
+    line-height: 1.2;         
+    color: #666;            
+}
+.ok>.oo>button{
+    margin-top: 15px; 
+    margin-left: 280px;
+    height: 50px;
+    width:180px;
+    border-radius: 2rem ;
+    border-color:rgb(255, 157, 0) ;
+}
+.ok>img{
+    height:400px;
+    margin-right:200px;
+    margin-top:60px;
+    border-radius: 10%;
+    transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53); 
+}
+.ok>img:hover{
+transform: scale(1.05); 
+}
+.z {
+    background-image: url("https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg");
+    background-origin: padding-box;
+    height: 800px; 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.z > .o {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 80px;;
+}
+.aa {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aa > .r {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aa > .r > img {
+    border-radius: 10%;
+    height: 400px;
+    width: 400px;
+    transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53); 
+}
+
+.aa > .r > img:hover {
+    transform: scale(1.05); 
+}
+
+.y {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    gap: 200px;
+    margin-top: 20px;
+    background-color:whitesmoke;
+    box-shadow: #333;
+    border-bottom: 2px solid rgb(181, 172, 172);
+}
+
+.y>.hh {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.hh label {
+    font-weight: bold; 
+    margin-bottom: 10px;
+    font-size: 50px;;
+}
+
+.hh input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.hh input[type="text"], 
+.hh input[type="password"],
+.hh input[type="date"] {
+    margin-top: 5px;
+}
+
+.hh input[type="text"]:focus, 
+.hh input[type="password"]:focus,
+.hh input[type="date"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove the default outline */
+}
+
+.y>.hhh>img {
+    height:500px;
+    border-radius:10px; 
+}
+
+footer {
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto; 
+    padding: 20px 0; 
+    border-bottom: 10px black;
+}
+
+footer > .k > h3 {
+    color:white;
+    font-size: 30px;
+}
+
+footer > .k > h1 {
+    color:white;
+    font-size: 40px;
+}
+footer>.k>p{
+    color:white;
+
+}
+
+footer > .kk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color:white
+}
+
+footer > .kk > img {
+    height: 30px;
+
+}
+footer>.l{
+    color: white;
+}
+
+footer > .l > img {
+    background-color: aqua;
+    mix-blend-mode: multiply;
+}
+
+footer > p {
+    font-size: 20px;
+    color: white;
+}
